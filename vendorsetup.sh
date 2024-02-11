@@ -94,9 +94,6 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		# Security (Disables MTP & ADB during password prompt)
 		export OF_ADVANCED_SECURITY=1
 
-	 	# Metadata encription
-   	        export OF_FBE_METADATA_MOUNT_IGNORE=1
-
 	        # Removes the loop block errors after flashing ZIPs (Workaround) 
 		export OF_IGNORE_LOGICAL_MOUNT_ERRORS=1
 		export OF_LOOP_DEVICE_ERRORS_TO_LOG=1

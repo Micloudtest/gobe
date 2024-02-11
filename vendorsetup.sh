@@ -64,7 +64,7 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
 
 	  # Display / Leds
-		export OF_SCREEN_H="2400"
+		export OF_SCREEN_H="2340"
 		export OF_STATUS_H="100"
 		export OF_STATUS_INDENT_LEFT=48
 		export OF_STATUS_INDENT_RIGHT=48

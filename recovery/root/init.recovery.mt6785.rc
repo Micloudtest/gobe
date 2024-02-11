@@ -62,3 +62,9 @@ on property:twrp.decrypt.done=true
     stop gatekeeper-1-0
     stop servicemanager
     stop hwservicemanager
+
+# Fix flashlight on orangefox
+ on property:ro.orangefox.boot=1
+    mkdir /tmp/flashlight
+    write /tmp/flashlight/max_brightness "258"
+    symlink /sys/devices/platform/flashlights_mt6360/leds/torch-light0/brightness /tmp/flashlight/brightness

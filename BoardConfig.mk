@@ -10,6 +10,10 @@ DEVICE_PATH := device/xiaomi/begonia
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# Power
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
@@ -73,12 +77,6 @@ BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_RECOVERY_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
-
-# UEFI
-TARGET_USES_UEFI := true
-
-# VNDK Treble
-BOARD_VNDK_VERSION := current
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop

@@ -7,14 +7,8 @@
 
 LOCAL_PATH := device/xiaomi/begonia
 
-# VNDK
-PRODUCT_TARGET_VNDK_VERSION := 30
-
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
-
-# VNDK Treble
-BOARD_VNDK_VERSION := current
 
 # Additional target Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \

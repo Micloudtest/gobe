@@ -10,10 +10,6 @@ DEVICE_PATH := device/xiaomi/begonia
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
-# Power
-ENABLE_CPUSETS := true
-ENABLE_SCHEDBOOST := true
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod

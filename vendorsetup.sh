@@ -63,7 +63,7 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		export OF_KEEP_DM_VERITY_FORCED_ENCRYPTION=1
 		export OF_SKIP_DECRYPTED_ADOPTED_STORAGE=1
 
-	  # Display / Leds
+	        # Display / Leds
 		export OF_SCREEN_H="2340"
 		export OF_STATUS_H="100"
 		export OF_STATUS_INDENT_LEFT=48
@@ -95,9 +95,9 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		export OF_ADVANCED_SECURITY=1
 
 	 	# Metadata encription
-   	export OF_FBE_METADATA_MOUNT_IGNORE=1
+   	        export OF_FBE_METADATA_MOUNT_IGNORE=1
 
-	  # Removes the loop block errors after flashing ZIPs (Workaround) 
+	        # Removes the loop block errors after flashing ZIPs (Workaround) 
 		export OF_IGNORE_LOGICAL_MOUNT_ERRORS=1
 		export OF_LOOP_DEVICE_ERRORS_TO_LOG=1
   

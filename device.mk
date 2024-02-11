@@ -9,9 +9,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# API
-PRODUCT_SHIPPING_API_LEVEL := 29
-
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2099-12-31 \

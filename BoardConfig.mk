@@ -128,9 +128,8 @@ TW_INCLUDE_LPTOOLS := true
 
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CPU_POS := "280"
+TW_CUSTOM_CPU_POS := "270"
 TW_CUSTOM_CLOCK_POS := "50"
-TW_CUSTOM_BATTERY_POS := "700"
 
 # TWRP Configuration
 #TW_DEVICE_VERSION := "Tapin Recovery Instraller"

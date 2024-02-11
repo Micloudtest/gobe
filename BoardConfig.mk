@@ -126,7 +126,7 @@ TW_INCLUDE_LPTOOLS := true
 
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CPU_POS := "270"
+TW_CUSTOM_CPU_POS := "250"
 TW_CUSTOM_CLOCK_POS := "50"
 
 # TWRP Configuration

@@ -135,6 +135,7 @@ TW_CUSTOM_CLOCK_POS := "70"
 TW_CUSTOM_BATTERY_POS := "790"
 
 # TWRP Configuration
+TW_DEVICE_VERSION := "Tapin Recovery Instraller"
 TW_FRAMERATE := 60
 TW_THEME := portrait_hdpi
 TW_INCLUDE_NTFS_3G    := true

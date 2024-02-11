@@ -5,9 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+LOCAL_PATH := device/xiaomi/begonia
 
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 30

@@ -44,13 +44,13 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		export OF_MAINTAINER="Tapin Recovery Instraller"
 		export FOX_VERSION=R12.1_0
 		export FOX_BUILD_TYPE="Unofficial"
-    export FOX_TARGET_DEVICES="begonia"
-	  export TARGET_DEVICE_ALT="begonia"
-    export OF_DEFAULT_TIMEZONE="WIB-7"
-	  export LC_ALL="C"
+                export FOX_TARGET_DEVICES="begonia"
+	        export TARGET_DEVICE_ALT="begonia"
+                export OF_DEFAULT_TIMEZONE="WIB-7"
+	        export LC_ALL="C"
 
 	 	# Magiskboot
-	  export OF_USE_MAGISKBOOT=1
+	        export OF_USE_MAGISKBOOT=1
 	 	export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
   
 		# OTA / DM-Verity / Encryption

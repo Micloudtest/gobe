@@ -1,4 +1,4 @@
-import /microtrust_begonia.rc
+import /init.microtrust.rc
 
 on init
     # Create a more standard /dev/block layout for our scripts
